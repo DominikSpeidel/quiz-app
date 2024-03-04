@@ -1,21 +1,36 @@
 body {
   background-color: white;
   border-style: solid;
-  background-color: rgb(201, 119, 12);
-  color: rgb(247, 239, 239);
+  background-color: white;
+  color: rgb(101, 18, 195);
+  margin: 5px;
+  flex-direction: column;
 }
 
 h1 {
   display: flex;
   justify-content: center;
-  background-color: rgb(255, 145, 0);
+  background-color: white;
   margin: 0%;
   padding: 10px;
 }
 
 .Queastion_Card_1 {
+  margin: 10px 10px 20px 10px;
   border-style: solid;
-  height: 200px;
+  border-radius: 10px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Queastion_Card_2 {
+  margin: 20px 10px 20px 10px;
+  border-style: solid;
+  border-radius: 10px;
+  height: 175px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -25,4 +40,14 @@ h1 {
   border-style: solid;
   display: inline;
   padding: 10px;
+}
+
+footer {
+  background-color: rgb(119, 20, 91);
+  padding: 10px;
+}
+
+.Navbarflex {
+  display: flex;
+  justify-content: space-evenly;
 }
