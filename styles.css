@@ -38,6 +38,11 @@ h1 {
   position: relative;
 }
 
+.buttons {
+  margin-right: auto;
+  padding-left: 20px;
+}
+
 #Bookmark1 {
   position: absolute;
   top: -10px;
